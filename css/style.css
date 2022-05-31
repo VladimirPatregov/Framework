@@ -1,0 +1,156 @@
+.hide {
+    display: none;
+}
+#app {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#graph2D {
+    text-align: center;
+    margin-top: 15px;
+}
+#graph2D > div{
+    text-align: center;
+    float:left
+}
+.canvas {
+    margin-right: 70px;
+    margin-left: 150px;;
+}
+#canvas {
+    border-radius: 10px;
+}
+#ui {
+    text-align: left;
+    width: 650px;
+    max-height:max-content;
+}
+#shadow {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: none;
+    font-size: 14pt;
+}
+.showComponent {
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 32px;
+    margin-right: 20px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+.showComponent:hover {
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+}
+#addFunction {
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 32px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+#addFunction:hover {
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+}
+.params {
+    margin-bottom: 3px;
+    padding-left: 15px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #a1adc7;
+    color: rgb(255, 255, 255);
+    max-width: 75px;
+}
+::-webkit-input-placeholder {
+    color:rgb(255, 255, 255);
+    opacity: 70%;
+    font-size: 12px;
+}
+#delete {
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 2px;
+    width: 74px;
+    margin: 5px 10px 10px 20px;
+}
+#delete:hover {
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+}
+body {
+    background-attachment: scroll;
+    background-color: #ccd0dc;
+    background-repeat: no-repeat;
+    position: center center;
+    background-size: 100%;
+}
+input[type=checkbox] {
+    background: #ffc8fc;
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgb(158, 6, 107);
+}
+.calcInputs {
+    margin-top: 100px;
+}
+
+.results {
+margin: 40px 0 40px 0;
+}
+.resultNumber {
+    width: 300px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    background-color: rgba(155, 179, 189, 0.85);
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(216, 223, 235);
+}
+.number {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    background-color: rgba(155, 179, 189, 0.85);
+    border: none;
+    border-radius: 3px;
+    border-bottom: solid 3px white;;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;;
+}
+.operands {
+    background-color: rgba(155, 179, 189, 0.85);
+    border-color: #ffffff;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    width: 70px;
+    height: 25px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.operands {
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.operands:hover {
+    background-color: white;
+    color: rgb(149, 147, 245);
+}
+
